@@ -1,0 +1,170 @@
+﻿<Window x:Class="browserMTH.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:browserMTH" 
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1039" Width="1919">
+    <Grid>
+        <Grid x:Name="Window" Background="#444557" HorizontalAlignment="Left" Margin="4,6,0,-6">
+            <WebBrowser x:Name="webBrowser" Source="https://xkcd.com/" Width="1919" Margin="0,63,0,0" ScrollViewer.VerticalScrollBarVisibility="Auto" Visibility="Visible" Opacity="0" ClipToBounds="True" SnapsToDevicePixels="True" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Separator HorizontalAlignment="Center" Height="1" VerticalAlignment="Center" Width="1920" Background="#FF707070"/>
+            <Button x:Name="Back_Button" Click="backButtonClick" Content="←" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="Next_Button" Click="nextButtonClick" Content="→" HorizontalAlignment="Left" Margin="40,6,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="Reload_Button" Click="reloadButtonClick" Content="⟳" HorizontalAlignment="Left" Margin="70,6,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="Home_Button" Click="homeButtonClick" Content="⌂" HorizontalAlignment="Left" Margin="100,6,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset Homepage" Click="editHomeSite"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <TextBox x:Name="URL_Box" Text="" GotMouseCapture="mouseInBox" KeyDown="OnKeyDownHandler" HorizontalAlignment="Left" Margin="130,6,0,0" VerticalAlignment="Top" Width="1600" Background="#FFDDDDDD" BorderBrush="#FF707070" FontFamily="Bahnschrift Condensed">
+                <TextBox.Effect>
+                    <DropShadowEffect/>
+                </TextBox.Effect>
+                <TextBox.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="New Window" Click="newWindow"/>
+                    </ContextMenu>
+                </TextBox.ContextMenu>
+            </TextBox>
+            <Button x:Name="Search_Button" Click="searchButtonClick" Content="🔍" HorizontalAlignment="Left" Margin="1740,6,0,0" VerticalAlignment="Top">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+
+            <Button Click="bookmarkOneClick" Content="bookmarkOne" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkOne"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkTwoClick" Content="bookmarkTwo" HorizontalAlignment="Left" Margin="200,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkTwo"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkThreeClick" Content="bookmarkThree" HorizontalAlignment="Left" Margin="400,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkThree"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkFourClick" Content="bookmarkFour" HorizontalAlignment="Left" Margin="600,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkFour"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkFiveClick" Content="bookmarkFive" HorizontalAlignment="Left" Margin="800,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkFive"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkSixClick" Content="bookmarkSix" HorizontalAlignment="Left" Margin="1000,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkSix"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkSevenClick" Content="bookmarkSeven" HorizontalAlignment="Left" Margin="1200,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkSeven"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkEightClick" Content="bookmarkEight" HorizontalAlignment="Left" Margin="1400,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkEight"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Button Click="bookmarkNineClick" Content="bookmarkNine" HorizontalAlignment="Left" Margin="1600,31,0,0" VerticalAlignment="Top" Width="161.9" FontFamily="Bahnschrift Condensed">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Reset" Click="editBookmarkNine"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+            <Separator HorizontalAlignment="Left" Height="44" Margin="1751,10,0,0" VerticalAlignment="Top" Width="63" RenderTransformOrigin="0.5,0.5" Background="#FF707070">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Center" Height="3" Margin="0,61,0,0" VerticalAlignment="Top" Width="1919" Background="#FF707070"/>
+            <Rectangle HorizontalAlignment="Left" Height="18" Margin="1788,6,0,0" Stroke="#FF707070" VerticalAlignment="Top" Width="123">
+                <Rectangle.Effect>
+                    <DropShadowEffect/>
+                </Rectangle.Effect>
+            </Rectangle>
+            <Rectangle HorizontalAlignment="Left" Height="18" Margin="1787,31,0,0" Stroke="#FF707070" VerticalAlignment="Top" Width="123">
+                <Rectangle.Effect>
+                    <DropShadowEffect/>
+                </Rectangle.Effect>
+            </Rectangle>
+            <TextBlock x:Name="timeBox" HorizontalAlignment="Left" Margin="1789,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Background="#FFDDDDDD" Foreground="Black" SnapsToDevicePixels="True" TextAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontFamily="Bahnschrift Condensed" LineStackingStrategy="MaxHeight" Grid.IsSharedSizeScope="True" ClipToBounds="True" FlowDirection="LeftToRight" UseLayoutRounding="True" Height="16"></TextBlock>
+            <TextBlock x:Name="dateBox" HorizontalAlignment="Left" Margin="1788,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Background="#FFDDDDDD" Foreground="Black" SnapsToDevicePixels="True" TextAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontFamily="Bahnschrift Condensed" LineStackingStrategy="MaxHeight" Grid.IsSharedSizeScope="True" ClipToBounds="True" FlowDirection="LeftToRight" UseLayoutRounding="True" Height="16"></TextBlock>
+        </Grid>
+    </Grid>
+</Window>

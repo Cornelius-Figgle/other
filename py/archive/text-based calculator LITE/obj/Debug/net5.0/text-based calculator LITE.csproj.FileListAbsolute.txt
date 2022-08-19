@@ -1,0 +1,16 @@
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\bin\Debug\net5.0\text-based calculator LITE.exe
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\bin\Debug\net5.0\text-based calculator LITE.deps.json
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\bin\Debug\net5.0\text-based calculator LITE.runtimeconfig.json
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\bin\Debug\net5.0\text-based calculator LITE.runtimeconfig.dev.json
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\bin\Debug\net5.0\text-based calculator LITE.dll
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\bin\Debug\net5.0\ref\text-based calculator LITE.dll
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\bin\Debug\net5.0\text-based calculator LITE.pdb
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.csprojAssemblyReference.cache
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.AssemblyInfoInputs.cache
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.AssemblyInfo.cs
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.csproj.CoreCompileInputs.cache
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.dll
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\ref\text-based calculator LITE.dll
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.pdb
+C:\Users\Max.Harrison\source\py\text-based calculator LITE\obj\Debug\net5.0\text-based calculator LITE.genruntimeconfig.cache

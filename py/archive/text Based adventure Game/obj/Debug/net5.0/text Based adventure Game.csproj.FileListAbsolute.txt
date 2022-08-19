@@ -1,0 +1,16 @@
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.csprojAssemblyReference.cache
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.AssemblyInfoInputs.cache
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.AssemblyInfo.cs
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.csproj.CoreCompileInputs.cache
+C:\Users\Max.Harrison\source\py\text Based adventure Game\bin\Debug\net5.0\text Based adventure Game.exe
+C:\Users\Max.Harrison\source\py\text Based adventure Game\bin\Debug\net5.0\text Based adventure Game.deps.json
+C:\Users\Max.Harrison\source\py\text Based adventure Game\bin\Debug\net5.0\text Based adventure Game.runtimeconfig.json
+C:\Users\Max.Harrison\source\py\text Based adventure Game\bin\Debug\net5.0\text Based adventure Game.runtimeconfig.dev.json
+C:\Users\Max.Harrison\source\py\text Based adventure Game\bin\Debug\net5.0\text Based adventure Game.dll
+C:\Users\Max.Harrison\source\py\text Based adventure Game\bin\Debug\net5.0\ref\text Based adventure Game.dll
+C:\Users\Max.Harrison\source\py\text Based adventure Game\bin\Debug\net5.0\text Based adventure Game.pdb
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.dll
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\ref\text Based adventure Game.dll
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.pdb
+C:\Users\Max.Harrison\source\py\text Based adventure Game\obj\Debug\net5.0\text Based adventure Game.genruntimeconfig.cache

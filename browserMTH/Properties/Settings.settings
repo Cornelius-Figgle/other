@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="browserMTH.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="homePage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkOne" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://xkcd.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkTwo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkThree" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkFour" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkFive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkSix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkSeven" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkEight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+    <Setting Name="userBookmarkNine" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://bing.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

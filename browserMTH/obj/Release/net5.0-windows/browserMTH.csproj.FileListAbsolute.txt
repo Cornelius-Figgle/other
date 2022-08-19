@@ -1,0 +1,14 @@
+C:\Users\Max.Harrison\source\py\browserMTH\bin\Release\net5.0-windows\browserMTH.exe
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\MainWindow.g.cs
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\App.g.cs
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH_MarkupCompile.cache
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH_MarkupCompile.lref
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\MainWindow.baml
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH.g.resources
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH.AssemblyInfoInputs.cache
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH.AssemblyInfo.cs
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH.csproj.CoreCompileInputs.cache
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH.dll
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\ref\browserMTH.dll
+C:\Users\Max.Harrison\source\py\browserMTH\obj\Release\net5.0-windows\browserMTH.pdb
