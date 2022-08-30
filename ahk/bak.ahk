@@ -39,7 +39,8 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
     FormatTime, isoCurrentTime, A_NowUTC, yyyyMMddTHHmmssZ
     FileAppend, %isoCurrentTime% | Ln: %A_LineNumber% | `n, c:\users\max.harrison\source\ahk\logs\bak\logs.txt
     Tooltip
-return
+
+Return
 
 reportError() 
 {
