@@ -15,6 +15,10 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
 
     If fixedDrives contains F 
     {
+        FileRemoveDir, f:\__pcBak\COD3\bak\*, 1
+        If (ErrorLevel != 0)
+            reportError()
+
         FormatTime, isoCurrentTime, A_NowUTC, yyyyMMddTHHmmssZ
         bakPath = f:\__pcBak\COD3\bak\%isoCurrentTime%\source
         If (ErrorLevel != 0)
