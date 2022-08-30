@@ -15,7 +15,7 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
 
     If fixedDrives contains F 
     {
-        FileRemoveDir, f:\__pcBak\COD3\bak\*, 1
+        FileRemoveDir, f:\__pcBak\COD3\bak, 1
         If (ErrorLevel != 0)
             reportError()
 
@@ -29,7 +29,7 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
             reportError() 
 
 
-        FileCopyDir, c:\users\max.harrison\source, f:\__pcBak\COD3\source, 1
+        FileCopyDir, t:\, f:\__pcBak\COD3\source, 1
         If (ErrorLevel != 0)
             reportError() 
         
