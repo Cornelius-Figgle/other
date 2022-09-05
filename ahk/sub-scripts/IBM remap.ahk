@@ -13,6 +13,9 @@ Menu,Tray,Icon,%GrandParentOfFile%\icons\ibm.ico,,0
 LAlt::LWin
 Ins::AppsKey
 <^>!::LAlt
+
+^#a::Send, !{Esc}
+^#d::Send, !+{Esc}
 	
 *F1::
 Menu,Tray,Icon,%GrandParentOfFile%\icons\loading.ico,,0
