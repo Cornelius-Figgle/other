@@ -1,9 +1,16 @@
 
-# Setup
+# Setup For New GitHub repo in VS Code
+
+## Prerequisites
+
+- Git installed
+- VS Code installed
+- GitHub account
+- VS Code signed into GitHub acoount
 
 ## Remember, to paste, you only need to right-click
 
-- Open windows search, type `git` then select `git cmd`
+- Open Windows search, type `git` then select `git cmd`
 
 ## Adding files
 
