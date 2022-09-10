@@ -5,22 +5,6 @@ SetWorkingDir %A_ScriptDir%
 Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
 #SingleInstance On
 
-^j::
-Process, Exist, chrome.exe
-If ErrorLevel != 0 
-{
-	Send, {Ctrl Down}{t}{Ctrl Up}
-	Sleep, 100
-}
-Else 
-{
-	Run, chrome.exe
-	Sleep, 500
-}
-Send, chrome://history/journeys
-Send, {Enter}
-Return
-
 ~Esc::Send, {Ctrl Up}{Alt Up}{Shift Up}{Win Up}{LCtrl Up}{LAlt Up}{LShift Up}{LWin Up}{RCtrl Up}{RAlt Up}{RShift Up}{RWin Up}
 Return
 
