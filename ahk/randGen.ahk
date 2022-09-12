@@ -20,6 +20,8 @@ Return
 
 !SPACE::  Winset, Alwaysontop, , A
 
+#SPACE::Return
+
 :*:inshat::game:GetService("InsertService"):LoadAsset(assetId).Parent = game.Workspace
 
 ^!n::ñ
