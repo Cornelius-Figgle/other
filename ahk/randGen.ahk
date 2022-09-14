@@ -8,6 +8,8 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
 ~Esc::Send, {Ctrl Up}{Alt Up}{Shift Up}{Win Up}{LCtrl Up}{LAlt Up}{LShift Up}{LWin Up}{RCtrl Up}{RAlt Up}{RShift Up}{RWin Up}
 Return
 
+^+#l::Run, https://flipclock.tk/
+
 ^!d::
 Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
 Run, https://mail.google.com/mail/u/3/?tab=wm&ogbl#inbox
