@@ -9,6 +9,7 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
 Return
 
 ^+#l::Run, https://flipclock.tk/
+^+#k::Run, https://www.youtube.com/watch?v=4jxeYfqevl4
 
 ^!d::
 Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
