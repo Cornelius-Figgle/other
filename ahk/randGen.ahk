@@ -9,7 +9,11 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
 Return
 
 ^+#l::Run, https://flipclock.tk/
-^+#k::Run, https://www.youtube.com/watch?v=4jxeYfqevl4
+^+#k::
+Run, https://www.youtube.com/watch?v=4jxeYfqevl4
+Sleep, 5000
+Send, {f}
+Return
 
 ^!d::
 Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
@@ -23,7 +27,7 @@ Return
 
 !SPACE::  Winset, Alwaysontop, , A
 
-#SPACE::Return
+#SPACE::  Winset, Alwaysontop, , A
 
 :*:inshat::game:GetService("InsertService"):LoadAsset(assetId).Parent = game.Workspace
 

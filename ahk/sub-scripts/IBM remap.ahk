@@ -38,7 +38,12 @@ NumpadPgUp::Volume_Up
 NumpadRight::Media_Next
 NumpadPgDn::Browser_Forward
 NumpadIns::Browser_Home
-NumpadDel::Run, https://www.youtube.com/watch?v=4jxeYfqevl4
+
+NumpadDel::
+Run, https://www.youtube.com/watch?v=4jxeYfqevl4
+Sleep, 5000
+Send, {f}
+Return
 
 *F6:: Run %A_ScriptDir%\HW.ahk
 
