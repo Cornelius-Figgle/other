@@ -1,6 +1,23 @@
 
 def main(numbers: list, loopRange: int, responses: list) -> None:
     for i in range(1, loopRange+1):
+        out = ''
+        
+        for j in numbers: 
+            if i % j == 0:
+                out += responses[numbers.index(j)+1]
+
+        if out:
+            print(out)
+        else: 
+            print(i)  
+
+if __name__ == '__main__':
+    main([3, 5], 100, ['FizzBuzz', 'Fizz', 'Buzz', 'Fuzz', 'Bizz', 'Biff'])
+
+'''
+def main(numbers: list, loopRange: int, responses: list) -> None:
+    for i in range(1, loopRange+1):
         if all(i % flag == 0 for flag in numbers):
             print(responses[0])
         elif any(i % flag == 0 for flag in numbers):
@@ -20,6 +37,7 @@ def main(numbers: list, loopRange: int, responses: list) -> None:
 
 if __name__ == '__main__':
     main([3, 5], 100, ['FizzBuzz', 'Fizz', 'Buzz', 'Fuzz', 'Bizz', 'Biff'])
+'''
 
 '''
 def main() -> None:
