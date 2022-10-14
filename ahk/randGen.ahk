@@ -36,14 +36,6 @@ Return
 
 ::GNU TP::[//]: # (GNU Terry Pratchett)
 
-^F5::
-Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
-Send {Ctrl Down}
-Send {Browser_Refresh}
-Send {Ctrl Up}
-Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
-Return
-
 :*:snke::snek
 ::bac::bak
 ::cos ::b/c
