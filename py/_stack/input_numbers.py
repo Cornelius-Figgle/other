@@ -1,4 +1,3 @@
-
 if __name__ == '__main__':
     first_input = input('Input some letters: ')
     first_list = first_input.split(' ')
@@ -12,4 +11,4 @@ if __name__ == '__main__':
     for num in second_list:
         third_list.append(first_list[num])
         
-    print(third_list)
+    print(f'The letters are: {third_list}')
