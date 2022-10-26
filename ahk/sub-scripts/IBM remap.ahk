@@ -25,7 +25,7 @@ Return
 
 *F4::!F4
 *F9:: Run sndvol
-*ScrollLock::Run Notepad
+*ScrollLock::Run, Notepad
 *Pause::Run ms-paint: 
 
 NumpadHome::Volume_Down
