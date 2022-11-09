@@ -6,6 +6,7 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
 #KeyHistory 0
 #SingleInstance On
 
+#MaxThreadsPerHotkey 1
 
 ^#s::
     Tooltip, "Getting Drives"
