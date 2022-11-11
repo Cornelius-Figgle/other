@@ -1,1 +1,1 @@
-glances -w --fs-free-space --process-short-name -1 --program
+glances --fs-free-space --process-short-name -1 --program --disable-plugin connections --disable-irix
