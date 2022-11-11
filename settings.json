@@ -39,7 +39,7 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 144,
-    "initialRows": 48,
+    "initialRows": 43,
     "profiles": 
     {
         "defaults": 
@@ -108,6 +108,24 @@
                 "hidden": false,
                 "icon": "\\\\dc1\\Users\\Max.Harrison\\My Documents\\My Pictures\\Images\\ico\\glances.png",
                 "name": "Glances"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "cmd.exe /c \"start-server.bat\"",
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{0186e3c1-0614-4ea5-b551-2d869d903e34}",
+                "hidden": false,
+                "historySize": 9001,
+                "name": "Terraria Serv",
+                "padding": "8, 8, 8, 8",
+                "startingDirectory": "C:\\Terraria Server\\1445\\Windows",
+                "useAcrylic": false
             }
         ]
     },
