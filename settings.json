@@ -71,7 +71,7 @@
             "keys": "ctrl+shift+t"
         }
     ],
-    "alwaysShowNotificationIcon": true,
+    "alwaysShowNotificationIcon": false,
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
@@ -79,7 +79,7 @@
     "experimental.rendering.forceFullRepaint": false,
     "firstWindowPreference": "persistedWindowLayout",
     "initialCols": 144,
-    "initialRows": 43,
+    "initialRows": 38,
     "profiles": 
     {
         "defaults": 

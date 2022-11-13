@@ -34,9 +34,10 @@ elif binaryList[1][0] == '0':
 
 returnList.append(chr(int(binaryList[2], 2))) #convert base2 to base10 then base10 to char
 
-print(returnList) #prints it as a list
+for byte in returnList:
+	print(byte) #prints each item separably
 
-returnString = '' #blank string
-for byte in returnList: #for each byte
-	returnString += str(byte) + ' ' #convert it to a string and add a space buffer to end
-print(returnString) #prints as a string
+#returnString = '' #blank string
+#for byte in returnList: #for each byte
+	#returnString += str(byte) + ' ' #convert it to a string and add a space buffer to end
+#print(returnString) #prints as a string
