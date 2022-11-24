@@ -11,4 +11,6 @@ curl -L "https://update.code.visualstudio.com/latest/win32-x64-user/stable" --ou
 
 "python-3.11.0-amd64.exe" /passive PrependPath=1 Include_pip=1 InstallAllUsers=1
 
+"Git-2.37.1-64-bit.exe" /LOADINF="C:\Users\WDAGUtilityAccount\scripts\git_config.cfg"
+
 echo DOne
