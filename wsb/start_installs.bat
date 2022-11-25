@@ -10,6 +10,13 @@ curl -L "https://update.code.visualstudio.com/latest/win32-x64-user/stable" --ou
 
 "Git-2.37.1-64-bit.exe" /SILENT /LOADINF="C:\Users\WDAGUtilityAccount\scripts\git_config.cfg"
 
+cd %UserProfile%
+mkdir %UserProfile%\source
+
+mkdir %UserProfile%\source\ROSA && cd %UserProfile%\source\ROSA && git init && git remote add origin https://GitHub.com/Cornelius-Figgle/ROSA.git && git pull origin main
+
+cd %UserProfile%
+
 "C:\Users\WDAGUtilityAccount\AppData\Local\Programs\Git\git-bash.exe"
 "C:\Users\WDAGUtilityAccount\AppData\Local\Programs\Git\git-cmd.exe"
 
