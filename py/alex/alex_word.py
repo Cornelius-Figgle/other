@@ -32,12 +32,16 @@ else:
     file_base_path = os.path.dirname(__file__)
 
 
+def sorter(quotes: list):
+    ...
 
 def main() -> None:
     with open(os.path.join(file_base_path, 'quotes.txt')) as file:
         reader = csv.reader(file)
         quotes = list(reader)
-        quotes[0][-1] = quotes[0][-1].strip()
+
+        quotes[0] = quotes[0][:]
+        quotes[-1] = quotes[-1].strip()
     
     print(quotes)
 
