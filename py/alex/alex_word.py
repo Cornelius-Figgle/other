@@ -32,7 +32,7 @@ else:
     file_base_path = os.path.dirname(__file__)
 
 
-def loader(path_to_use: str) -> List:
+def loader(path_to_use: str) -> None:
     '''
     loads `quotes` from `path_to_use`
     '''
