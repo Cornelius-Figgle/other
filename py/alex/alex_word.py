@@ -1,4 +1,4 @@
-# pebis
+# shebang
 # -*- coding: UTF-8 -*-
 
 # https://github.com/Cornelius-Figgle/other
