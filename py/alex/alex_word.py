@@ -32,7 +32,7 @@ else:
     file_base_path = os.path.dirname(__file__)
 
 
-def sorter(quotes: list):
+def sorter(quotes: list) -> None:
     ...
 
 def main() -> None:
@@ -40,8 +40,9 @@ def main() -> None:
         reader = csv.reader(file)
         quotes = list(reader)
 
-        quotes[0] = quotes[0][:]
-        quotes[-1] = quotes[-1].strip()
+        quotes = sum(quotes, [])
+        for quote in quotes:
+            quotes[quotes.index(quote)] = quote.strip()
     
     print(quotes)
 
