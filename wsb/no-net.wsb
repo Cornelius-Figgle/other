@@ -1,0 +1,7 @@
+<Configuration>
+  <VGpu>Enable</VGpu>
+  <Networking>Disable</Networking>
+  <LogonCommand>
+    <Command>cmd.exe</Command>
+  </LogonCommand>
+</Configuration>
