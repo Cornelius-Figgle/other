@@ -1,7 +1,7 @@
 # shebang
 # -*- coding: UTF-8 -*-
 
-# https://github.com/Cornelius-Figgle/other
+# https://github.com/Cornelius-Figgle/other/blob/main/py/alex/
 
 '''
 A random quote generator for Alex
@@ -10,7 +10,7 @@ Pulls quotes from `quotes.txt` or `sys.argv[1]`, which is actually a `csv` file
 '''
 
 # note: view associated GitHub info as well
-__version__ = 'Pre-release'  
+__version__ = 'v1.0'  
 __author__ = 'Cornelius-Figgle'
 __email__ = 'max@fullimage.net'
 __maintainer__ = 'Cornelius-Figgle'
