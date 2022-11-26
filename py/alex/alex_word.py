@@ -6,7 +6,7 @@
 '''
 A random quote generator for Alex
 
-Pulls quotes from `quotes.txt` which is actually a `csv` file
+Pulls quotes from `quotes.txt` or `sys.argv[1]`, which is actually a `csv` file
 '''
 
 # note: view associated GitHub info as well
@@ -32,11 +32,12 @@ else:
     file_base_path = os.path.dirname(__file__)
 
 
-def sorter(quotes: list) -> None:
-    ...
+def loader(path_to_use: str) -> None:
+    '''
+    loads `quotes` from `path_to_use`
+    '''
 
-def main() -> None:
-    with open(os.path.join(file_base_path, 'quotes.txt')) as file:
+    with open(path_to_use) as file:
         reader = csv.reader(file)
         quotes = list(reader)
 
@@ -44,7 +45,25 @@ def main() -> None:
         for quote in quotes:
             quotes[quotes.index(quote)] = quote.strip()
     
-    print(quotes)
+    return quotes
+
+def selector(quotes: list) -> None:
+    ...
+
+
+def main() -> None:
+    '''
+    The main function that handles passing or args and return values.
+    Also handles the application loop and errors from functions
+    '''
+
+    if (sys.argv[1] and os.path.exists(sys.argv[1]) 
+    and os.access(sys.argv[1], os.X_OK | os.W_OK)):
+        path_to_use = sys.argv[1]
+    else:
+        path_to_use = os.path.join(file_base_path, 'quotes.txt') 
+
+    quotes = loader(path_to_use)
 
 if __name__ == '__main__':
     main()
