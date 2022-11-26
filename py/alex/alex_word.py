@@ -37,8 +37,9 @@ def main() -> None:
     with open(os.path.join(file_base_path, 'quotes.txt')) as file:
         reader = csv.reader(file)
         quotes = list(reader)
+        quotes[0][-1] = quotes[0][-1].strip()
     
-    print('Hello World')
+    print(quotes)
 
 if __name__ == '__main__':
     main()
