@@ -17,12 +17,13 @@ __maintainer__ = 'Cornelius-Figgle'
 __copyright__ = 'Copyright (c) 2022 Max Harrison'
 __license__ = 'MIT'
 __status__ = 'Development'
-__credits__ = ['Max Harrison', 'Alex Ceaton', 'Ashe~ Ceaton']
+__credits__ = ['Max Harrison', 'Alex Ceaton', 'Ashe Ceaton']
 
 
 import csv
 import os
 import sys
+from random import choice
 
 if hasattr(sys, '_MEIPASS'):
     # source: https://stackoverflow.com/a/66581062/19860022
@@ -32,7 +33,7 @@ else:
     file_base_path = os.path.dirname(__file__)
 
 
-def loader(path_to_use: str) -> None:
+def loader(path_to_use: str) -> list[str]:
     '''
     loads `quotes` from `path_to_use`
     '''
@@ -47,8 +48,15 @@ def loader(path_to_use: str) -> None:
     
     return quotes
 
-def selector(quotes: list) -> None:
-    ...
+def selector(quotes: list) -> tuple[str, list[str]]:
+    '''
+    randomly chooses a quote from the list and removes said quote
+    '''
+
+    qotd = choice(quotes)
+    quotes.pop(quotes.index(qotd))
+
+    return qotd, quotes
 
 
 def main() -> None:
@@ -57,13 +65,29 @@ def main() -> None:
     Also handles the application loop and errors from functions
     '''
 
-    if (sys.argv[1] and os.path.exists(sys.argv[1]) 
-    and os.access(sys.argv[1], os.X_OK | os.W_OK)):
-        path_to_use = sys.argv[1]
-    else:
+    try:
+        if (sys.argv[1] and os.path.exists(sys.argv[1]) 
+        and os.access(sys.argv[1], os.X_OK | os.W_OK)):
+            path_to_use = sys.argv[1]
+        else:
+            raise IndexError
+            # note: so var is only set in the except block
+            # note: to prevent duplicates
+    except IndexError:
         path_to_use = os.path.join(file_base_path, 'quotes.txt') 
 
-    quotes = loader(path_to_use)
+    try:
+        quotes = loader(path_to_use)        
+        while True:
+            if not quotes:
+                # note: if all the quotes have been used, restore list
+                quotes = loader(path_to_use)
+            qotd, quotes = selector(quotes)
+            print(f'\'{qotd}\'')
+
+            input('\t> Press enter to continue\n')
+    except KeyboardInterrupt:
+        sys.exit(0)
 
 if __name__ == '__main__':
     main()
