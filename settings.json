@@ -60,11 +60,26 @@
             "keys": "ctrl+shift+space"
         },
         {
+            "command": "unbound",
+            "keys": "win+ctrl+shift+t"
+        },
+        {
+            "command": "unbound",
+            "keys": "win+ctrl+t"
+        },
+        {
             "command": 
             {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+`"
         },
         {
             "command": "openNewTabDropdown",
