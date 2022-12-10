@@ -26,7 +26,6 @@ Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
 Return
 
 !SPACE::  Winset, Alwaysontop, , A
-
 #SPACE::  Winset, Alwaysontop, , A
 
 :*:inshat::game:GetService("InsertService"):LoadAsset(assetId).Parent = game.Workspace
