@@ -170,7 +170,7 @@
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "automatic",
-                "commandline": "cmd.exe /c \"start-server.bat\"",
+                "commandline": "pwsh -c \"ssh max@mimic2\"",
                 "font": 
                 {
                     "face": "Cascadia Mono",
@@ -181,7 +181,6 @@
                 "historySize": 9001,
                 "name": "Terraria Serv",
                 "padding": "8, 8, 8, 8",
-                "startingDirectory": "C:\\Terraria Server\\1445\\Windows",
                 "useAcrylic": false
             },
             {
