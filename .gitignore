@@ -1,3 +1,4 @@
 rosa-env/
 */rosa/bin/
 */rosa/build/
+*.exe
