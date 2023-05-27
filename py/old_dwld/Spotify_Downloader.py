@@ -210,7 +210,7 @@ def main():
         urlsToDownload = getUrlsFromYT(songsToDownload)
 
         pathDwld = input('\tPlease provide a path:\n\t\t')
-        while pathDwld is None: pathDwld = input('\tPlease provide a path:\n\t\t') #c:\users\max.harrison\source\py\Spotify_Downloader\dwld
+        while pathDwld is None: pathDwld = input('\tPlease provide a path:\n\t\t') #C:\Users\Max.Harrison\source\py\Spotify_Downloader\dwld
         pathDwld = pathDwld.rstrip()
 
         downloadVidsFrom_ThenConvert(urlsToDownload, songsToDownload, pathDwld)

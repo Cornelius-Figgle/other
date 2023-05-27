@@ -1,6 +1,6 @@
 from msvcrt import getwch
 from qol_mth import clearConsole, sleep
-from colorama import Fore
+#from colorama import Fore
 from shutil import get_terminal_size
 
 input()
